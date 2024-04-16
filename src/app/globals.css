@@ -17,7 +17,7 @@ body{
 .sidebar {
   width: 17rem;
   height: 100%;
-  background-color: #eee;
+  background-color: #0c75d7;
   padding: 1rem;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -43,6 +43,7 @@ body{
 .sidebar_logo-name{
   font-size: 1.2rem;
   font-weight: 600;
+  color:#dedede
 }
 
 .sidebar_list {
@@ -57,7 +58,7 @@ body{
   color:#000;
   padding: 0.8rem 1rem;
   display: flex;
-  background-color: #d8d8d8;
+  background-color: #66d6ff;
   margin-bottom: 1rem;
   border-radius: 0.8rem;
 }
