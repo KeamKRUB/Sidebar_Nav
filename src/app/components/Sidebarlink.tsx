@@ -13,7 +13,7 @@ const SideLink = ({item,isCollapse}:LinkProp) => {
     const pathName = usePathname()
     console.log(pathName)
     return(
-<Link href={item.link} className={`${isCollapse && "justify-center"} items-center rounded p-1 inline-block text-lg flex rounded-[0.8rem] mb-[1rem] ${pathName!=item.link && "bg-[#66d6ff] text-blue-900"}  ${pathName===item.link && "bg-white text-black"}`}>
+<Link href={item.link} className={`${isCollapse && "justify-center"} items-center rounded p-1 inline-block text-lg flex rounded-[0.8rem] mb-[1rem] ${pathName!=item.link && "bg-[#fff] text-black"}  ${pathName===item.link && "bg-green-400 text-black"}`}>
 
 
 <span className="sidebar_icon">
